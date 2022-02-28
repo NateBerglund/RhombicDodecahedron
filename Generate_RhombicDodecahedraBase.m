@@ -1,4 +1,4 @@
-outputFolder = 'C:\Users\info\source\repos\NateBerglund\rhombicDodecahedron';
+outputFolder = 'C:\Users\info\source\repos\RhombicDodecahedron';
 outputFile = 'RhombicDodecahedraBase.stl';
 
 baseVertices = [...
