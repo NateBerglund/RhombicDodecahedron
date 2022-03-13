@@ -357,11 +357,9 @@ for j = -2:2
   endif  
   
   % Orientation flip
-  if (ySign > 0)
-    temp = vertices(1:3:end,:);
-    vertices(1:3:end,:) = vertices(2:3:end,:);
-    vertices(2:3:end,:) = temp;
-  endif
+  temp = vertices(1:3:end,:);
+  vertices(1:3:end,:) = vertices(2:3:end,:);
+  vertices(2:3:end,:) = temp;
   
   % apply xy scale factor
   vertices(:,1:2) = xyScaleFactor * vertices(:,1:2);
